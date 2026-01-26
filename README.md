@@ -13,7 +13,7 @@ Alerts and dashboards are built in **Kibana** for near real-time visibility.
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 ![Architecture](architecture/architecture-diagram.png)
 
 **Flow:**
@@ -26,7 +26,7 @@ Alerts and dashboards are built in **Kibana** for near real-time visibility.
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 - AWS CloudTrail
 - AWS S3
 - AWS Lambda (Python)
@@ -35,7 +35,7 @@ Alerts and dashboards are built in **Kibana** for near real-time visibility.
 
 ---
 
-## 🚨 Detection Use Cases
+##  Detection Use Cases
 - IAM user creation (`CreateUser`)
 - Policy attachment (`AttachUserPolicy`)
 - Access key creation (`CreateAccessKey`)
@@ -43,7 +43,7 @@ Alerts and dashboards are built in **Kibana** for near real-time visibility.
 
 ---
 
-## 📊 Dashboards
+##  Dashboards
 Kibana dashboards show:
 - IAM API call frequency
 - Event timelines
@@ -53,14 +53,14 @@ Kibana dashboards show:
 
 ---
 
-## ⚠️ Alerts
+##  Alerts
 Kibana alert rules trigger when:
 - IAM-sensitive actions occur
 - Log activity exceeds thresholds
 
 ---
 
-## 🧪 Validation
+##  Validation
 The system was validated by:
 - Creating IAM users
 - Attaching policies
@@ -70,11 +70,11 @@ The system was validated by:
 
 ---
 
-## 🧹 Cleanup
+##  Cleanup
 All AWS resources can be safely deleted after use to avoid costs.
 
 ---
 
-## 👤 Author
+##  Author
 Preetam  
 B.Tech CSE | Cybersecurity & Cloud
