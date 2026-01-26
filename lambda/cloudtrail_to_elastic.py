@@ -3,6 +3,7 @@ Lambda Function: CloudTrail to Elasticsearch
 Triggered by S3 ObjectCreated events.
 Parses CloudTrail logs and sends them to Elasticsearch.
 """
+
 import json
 import gzip
 import os
