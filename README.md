@@ -14,7 +14,7 @@ Alerts and dashboards are built in **Kibana** for near real-time visibility.
 ---
 
 ##  Architecture
-![Architecture](architecture/architecture-diagram.png)
+![Architecture](architecture/AWS_cloudtrail.png)
 
 **Flow:**
 1. AWS CloudTrail records management events
